@@ -10,3 +10,12 @@ def attack_once
   click_button 'Attack'
   click_link 'OK'
 end
+
+def attack_OK
+  click_button 'Attack'
+  click_link 'OK'
+end
+
+def multiple_attack
+  10.times { attack_OK }
+end
